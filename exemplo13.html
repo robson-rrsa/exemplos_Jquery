@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo 13</title>
+    <style>
+        div {
+            background-color: azure;
+            width: 100px;
+            border: 1px solid green;
+        }
+    </style>
+    <script type="text/javascript" src="src/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <button id="go">Ampliar</button>
+    <div class="block">Ola</div>
+
+    <script>
+        $("#go").click(function() {
+            $("#block").animate({
+                width: "100%",
+                opacity: 0.4,
+                marginLeft: "0.6in",
+                fontSiza: "3em",
+                borderWidth: "10px"
+            },1500);
+        });
+    </script>
+</body>
+</html>

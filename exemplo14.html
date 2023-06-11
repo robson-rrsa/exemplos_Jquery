@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo 14</title>
+    <script type="text/javascript" src="src/jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <button id="esquerda">&laquo;</button>
+    <button id="direita">&laquo;</button>
+    <div class="quadrado"></div>
+    <script>
+        $("#direita").click(function (){
+            $(".quadrado").animate({"left":"+=50px"}, "slow");
+        });
+
+        $("#esquerda").click(function (){
+            $(".quadrado").animate({"left":"-=50px"}, "slow");
+        });
+
+    </script>
+    <style>
+        .quadrado{
+            position: absolute;
+            background-color: aquamarine;
+            left: 0px;  
+            top: 30px;
+            width: 60px;
+            height: 60px;
+            margin: 5px;
+        }
+    </style>
+</body>
+</html>

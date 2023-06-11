@@ -1,0 +1,35 @@
+
+body {
+    background-color: black;
+  }
+  
+  .square {
+    background-color: lightgray;
+    cursor: pointer;
+    height: 200px;
+    position: relative;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .square img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  
+  .modal-content a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .modal-content a:hover {
+    text-decoration: underline;
+  }
+
+#texto1 {
+    text-align: center;
+    color: azure;
+}

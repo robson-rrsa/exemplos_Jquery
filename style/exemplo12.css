@@ -1,0 +1,23 @@
+
+.teste {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: red;
+}
+
+div {
+    position: absolute;
+    width: 60px;    
+    height: 60px;
+    float: left;
+}
+
+.primeiro {
+    background-color: green;
+    left: 0;
+}
+
+.segundo{
+    background-color: blue;
+    left: 80px;
+}
